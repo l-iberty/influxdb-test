@@ -1,0 +1,2 @@
+# ./main -writeClients 8 -dataDir ../testdata_100M -numOfFiles 100 -rowsPerRequest 1000 -replicaN 3 -consistency all
+./main -writeClients 8 -dataDir ../testdata_100M -numOfFiles 100 -rowsPerRequest 100 -host http://localhost:7076
